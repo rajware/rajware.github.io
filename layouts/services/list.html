@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="service_section layout_padding">
+    <div class="container">
+        <h1>Services</h1>
+        <div class="layout_padding2-top">
+            {{ .Content }}
+        </div>
+        <div class=" layout_padding2">
+            {{ partial "serviceCardDeck" . }}
+        </div>
+    </div>
+</section>
+{{ end }}
