@@ -1,0 +1,4 @@
+baseURL = 'http://rajware.github.io/'
+languageCode = 'en-us'
+title = 'Rajware Services Pvt. Ltd.'
+disableKinds = ['taxonomy', 'term', 'category']
