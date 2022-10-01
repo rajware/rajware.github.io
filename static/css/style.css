@@ -188,7 +188,7 @@ a:focus {
 
 /* slider section */
 .slider_section {
-  padding-top: 8%;
+  padding-top: 4% /* was 8% */ ; 
 }
 
 .slider_item-box {

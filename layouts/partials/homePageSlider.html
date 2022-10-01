@@ -1,0 +1,22 @@
+{{ $slidesdir := .Site.GetPage "/homepageslides" }}
+{{ $slides := $slidesdir.Resources.Match "**.md" }}
+{{ if $slides }}
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+
+        {{ range sort $slides "Params.weight" }}
+            {{ partial "homePageSlide" . }}
+        {{ end}}
+    </div>
+    {{ if gt (len $slides) 1 }}
+    <div class="custom_carousel-control">
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

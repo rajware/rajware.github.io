@@ -1,0 +1,40 @@
+<div class='carousel-item {{ if .Params.First }}active{{ end }}'>
+    <div class="slider_item-box">
+        <div class="slider_item-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="slider_item-detail">
+                            <div>
+                                <h2>
+                                    {{ .Title }}
+                                </h2>
+                                <div>
+                                    {{ .Content }}
+                                </div>
+                                {{ if .Params.buttons }}
+                                <div class="d-flex">
+                                    {{ range .Params.buttons }}
+                                    <a href="{{ .url }}" class="text-uppercase mr-3 {{ if .first }}custom_orange-btn{{ else }}custom_dark-btn{{ end }}">
+                                        {{ .title }}
+                                    </a>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="slider_img-box">
+                            <div>
+                                {{ if .Params.imageUrl }}
+                                <img src="{{ .Params.imageUrl }}" alt="" class="" />
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
