@@ -13,8 +13,8 @@
     <meta name="author" content="" />
 
     <title>{{- block "pagetitle" . -}}
-    {{- .Title }} - Rajware
-    {{- end -}}</title>
+        {{- .Title }} - Rajware
+        {{- end -}}</title>
 
     <!-- slider stylesheet -->
     <link rel="stylesheet" type="text/css"
@@ -30,6 +30,10 @@
     <link href="/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="/css/responsive.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -52,8 +56,7 @@
                         <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                             <ul class="navbar-nav  ">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="/">Home <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/about"> About Us</a>
@@ -85,6 +88,9 @@
 
         <!-- footer section -->
         <section class="container-fluid footer_section">
+            <p>
+                Built using <a href="https://gohugo.io/">Hugo</a>, hosted on <a href="https://pages.github.com/">Github Pages</a>
+            </p>
             <p>
                 Template copyright &copy; 2019 All Rights Reserved By
                 <a href="https://html.design/">Free Html Templates</a>
