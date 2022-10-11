@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="layout_padding2 ">
+<section class='layout_padding2 {{ default "" .Params.topsectionclass }}'>
     <div class="container ">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
