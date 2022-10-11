@@ -510,7 +510,11 @@ a:focus {
 
 /* end footer section*/
 
-/* Custom styles by Raj */
+/* Custom styles for Rajware */
+h2, h3, h4 {
+  font-size: 1.5rem;
+}
+
 img.content_icon {
   display: block;
   width: 100px;
@@ -522,4 +526,54 @@ img.content_icon {
 
 .welcome_section {
   margin-top: 2.5em;
+}
+
+.slider_item-container {
+  min-height: 340px;
+}
+
+.aboutus_section figure {
+  clear:left;
+  float: left;
+}
+
+.aboutus_section figure h4 {
+  text-align: center;
+}
+
+.aboutus_section figure img {
+  width: 120px;
+}
+
+
+
+.training_section table {
+  margin-bottom: 2rem;
+  border: 1px solid #ededed;
+  padding: 3px;
+}
+
+.training_section table th {
+  padding: 0.3rem 1.5rem 0.3rem 0.3rem;
+  background-color: #ededed;
+}
+
+.training_section table td {
+  padding: 0.3rem 1.5rem 0.3rem 0.3rem;
+  background-color: white;
+  font-size: 0.95rem;
+}
+
+.training_section table td:first-child, 
+.training_section table td:nth-child(2) {
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.notfound_section figure img {
+  width: 30vw;
+}
+
+.footer_section {
+  font-size: 0.75rem;
 }
