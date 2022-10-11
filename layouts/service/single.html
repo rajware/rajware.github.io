@@ -3,7 +3,7 @@
 <section class='layout_padding2 {{ default "" .Params.topsectionclass }}'>
     <div class="container ">
         {{- with .Resources.GetMatch "images/icon.png" -}}
-        <img src="{{ .Permalink }}" alt="{{ $serviceName }}" class="content_icon" />
+        <img src="{{ .RelPermalink }}" alt="{{ $serviceName }}" class="content_icon" />
         {{- end -}}
         <h1>{{ $serviceName }}</h1>
         

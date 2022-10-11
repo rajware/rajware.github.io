@@ -1,9 +1,9 @@
 <div class="card-deck">
     {{ range (where .Site.Pages "Type" "service") }}
     {{ $serviceName := .Title }}
-    <div class="card" onclick="javascript:window.location='{{ .Permalink }}'">
+    <div class="card" onclick="javascript:window.location='{{ .RelPermalink }}'">
         {{- with .Resources.GetMatch "images/icon.png" -}}
-        <img class="card-img-top" src='{{ .Permalink  }}' alt="{{ $serviceName }}" />
+        <img class="card-img-top" src='{{ .RelPermalink }}' alt="{{ $serviceName }}" />
         {{ end }}
         <div class="card-body">
             <h5 class="card-title">{{ $serviceName }}</h5>
