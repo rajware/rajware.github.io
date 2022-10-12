@@ -8,6 +8,18 @@
         <h1>{{ $serviceName }}</h1>
         
         {{- .Content }}
+
+        <div class="servicelinks">
+            {{ $currentPage := .Page }}
+            {{ range (where .Site.Pages "Type" "service") }}
+            {{ $serviceName := .Title }}
+                {{ if (ne .Permalink $currentPage.Permalink) }}
+                    <a href="{{ .RelPermalink }}">{{ $serviceName }}</a>
+                {{ else }}
+                <a>{{ $serviceName }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
     </div>
 </section>
 {{ end }}

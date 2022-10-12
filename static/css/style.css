@@ -578,6 +578,18 @@ img.content_icon {
   }
 }
 
+div.servicelinks {
+  text-align: center;
+}
+
+div.servicelinks a:after { 
+  content: " \00b7"; 
+}
+
+div.servicelinks a:last-child::after { 
+  content: none; 
+}
+
 .notfound_section figure img {
   width: 30vw;
 }
