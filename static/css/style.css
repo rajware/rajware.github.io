@@ -578,6 +578,21 @@ img.content_icon {
   }
 }
 
+@media (max-width: 400px) {
+  .training_section table thead {
+    display: none;
+  }
+
+  .training_section table tbody td {
+    display: block;
+  }
+
+  .training_section table tbody td:first-child {
+    font-weight: bold;
+  }
+
+}
+
 div.servicelinks {
   text-align: center;
 }
@@ -589,6 +604,17 @@ div.servicelinks a:after {
 div.servicelinks a:last-child::after { 
   content: none; 
 }
+
+@media (max-width: 300px) {
+  div.servicelinks a {
+    display: block;
+  }
+
+  div.servicelinks a:after {
+    content: none;
+  }
+}
+
 
 .notfound_section figure img {
   width: 30vw;
