@@ -18,8 +18,8 @@ We currently offer the following courses:
 |Course|Duration|Description|
 |---|---|---|
 |Containerization with Docker|5 days|This course teaches the concept of containerization as standardized by the OCI, and as implemented by Docker. It covers basic and advanced container concepts, storage and networking, application "stack" management using Compose, and creating custom images.|
-|Orchestration with Kubernetes|5 days|This course provides an in-depth understanding of Kubernetes core concepts and demonstrates some strategies of deploying and managing applications on Kubernetes clusters. All topics are covered from both Sysadmin and Developer perspectives, with examples to match.|
-|Application Packaging with Helm|3 days|This course is a step-up to Orchestration with Kuberenetes training. Participants who are working with Kuberenetes, can learn to use Helm to deploy, run and manage Kubernetes applications using Package Manager – Helm. Topics covered include installation of Helm, followed by deploying, managing, updating, packaging, and sharing K8s applications using Helm charts.|
+|Orchestration with Kubernetes|5 days|This course provides an in-depth understanding of Kubernetes core concepts. It explains and demonstrates the distributed nature of kubernetes, the power and flexibility of the API, and the role of components such as the backing store, controllers, pod, CNI plugins, volumes, provisioners and metrics management. All topics are covered from both admin and developer perspectives, with examples to match.|
+|Application Packaging with Helm|3 days|This course teaches how to use Helm to create and maintain application packages, or "charts". Topics covered include: understanding the design and use of Helm, creating application and library charts, creating and updating releases, versioning and upgrading charts, useful Go template techniques, publishing charts to repositories, repo maintainance, the Artifact Hub and best practices. |
 
 In addition to the above, the following trainings can be conducted on request:
 * Application Development on Kubernetes (5 days)
