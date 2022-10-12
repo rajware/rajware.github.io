@@ -570,6 +570,26 @@ img.content_icon {
   vertical-align: top;
 }
 
+@media (max-width: 575px) { 
+  .training_section table td:first-child, 
+  .training_section table td:nth-child(2) {
+    white-space: initial;
+    vertical-align: initial;
+  }
+}
+
+div.servicelinks {
+  text-align: center;
+}
+
+div.servicelinks a:after { 
+  content: " \00b7"; 
+}
+
+div.servicelinks a:last-child::after { 
+  content: none; 
+}
+
 .notfound_section figure img {
   width: 30vw;
 }
