@@ -12,7 +12,7 @@ Rajware Services Pvt. Ltd. (RSPL) was co-founded by Chitra Raghavan and Raj Chau
 
 An engineer by qualification, she developed an interest and completed a master's degree in English literature. She also pursued her interest in public speaking to Toastmasters International club, where she qualified as a Competent Communicator, and also served a term as club president. From here, she went on to become the Chief Marketing Officer and Communications Coach at The Happiness Company.
 
-Since 2017, she has turned her attention to technical training and consulting, and works with Raj to design and deliver courses and assignments, especially in the fields of containerization and orchestration.
+Since 2016, she has turned her attention to technical training and consulting, and works with Raj to design and deliver courses and assignments, especially in the fields of containerization and orchestration.
 
 * Email her on: [chitra@rajware.net](mailto:chitra@rajware.net)
 * Follow her on Twitter: [@chitrachaudhuri](https://twitter.com/chitrachaudhuri)
