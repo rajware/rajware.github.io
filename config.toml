@@ -4,3 +4,7 @@ title = 'Rajware Services Pvt. Ltd.'
 disableKinds = ['taxonomy', 'term', 'category']
 enableRobotsTXT = true
 publishDir = "docs"
+enableGitInfo = true
+
+[frontmatter]
+lastmod = [':git', ':fileModTime']
