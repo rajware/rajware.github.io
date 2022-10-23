@@ -289,6 +289,16 @@ a:focus {
   position: relative;
 }
 
+a.cardlink
+, a.cardlink:link
+, a.cardlink:visited
+, a.cardlink:hover
+, a.cardlink:focus
+, a.cardlink:active  {
+  text-decoration: none;
+  color: inherit;
+}
+
 .service_section .card .card-title {
   color: var(--accent-color);
 
