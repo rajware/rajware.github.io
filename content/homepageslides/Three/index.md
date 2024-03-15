@@ -8,4 +8,4 @@ buttons:
 #  - title: ButtonText
 #    url: /
 ---
-We believe in try-as-you-learn practical approach. Our trainings are 100% hands-on, continuous and deep dive, based on the official documentation.
+We believe in *try-as-you-learn* practical approach. Our trainings are 100% hands-on deep dive sessions, customised to business needs or individual project needs.

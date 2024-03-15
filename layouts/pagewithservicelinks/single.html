@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class='layout_padding2 {{ default "" .Params.topsectionclass }}'>
+    <div class="container ">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="servicelinks">
+        {{ $currentPage := .Page }}
+        {{ range (where .Site.Pages "Type" "service") }}
+            {{ $serviceName := .Title }}            
+            <a href="{{ .RelPermalink }}">{{ $serviceName }}</a>
+        {{ end }}
+    </div>
+    </div>
+</section>
+
+{{ end }}

@@ -2,14 +2,17 @@
 title: "Contact"
 date: 2022-09-30T16:42:20+05:30
 draft: false
+type: pagewithservicelinks
 ---
-We do not collect any data on this website, as part of our commitment to protect privacy. Hence, e-mail is our preferred form of communication.
+We do not collect any data on this website, as part of our commitment to protect privacy. Simply drop us an e-mail, and we will reach you.
 
-## Corporate Training Enquiries
+## Training Enquiries
 
-We offer corporate training in India exclusively through our partners, [Knowledgeworks IT Consulting Services](https://www.knowledgeworksindia.com/). Please contact them at [training@knowledgeworksindia.com](mailto:training@knowledgeworksindia.com)
+Whether you are looking for corporate training or training for yourself, we can help.
 
-If you are located outside India, you may mail us directly at [enquire@rajware.net](mailto:enquire@rajware.net?subject=Corporate%20Training%20Enquiry)
+We currently offer corporate training in India exclusively through our partner, [Knowledgeworks IT Consulting Services](https://www.knowledgeworksindia.com/). Please contact them at [training@knowledgeworksindia.com](mailto:training@knowledgeworksindia.com)
+
+Otherwise, mail us directly at [enquire@rajware.net](mailto:enquire@rajware.net?subject=Corporate%20Training%20Enquiry)
 
 ## Consulting Enquiries
 
@@ -17,4 +20,4 @@ Please mail us directly at [enquire@rajware.net](mailto:enquire@rajware.net?subj
 
 ## Anything else
 
-Please mail us at corporate@rajware.net
+Please mail us at [corporate@rajware.net](mailto:corporate@rajware.net?subject=From%website)

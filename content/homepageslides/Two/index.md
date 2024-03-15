@@ -11,4 +11,4 @@ imageUrl: /images/docker-kubernetes-slide.png
  # - title: Services
  #   url: /services
 ---
-We deliberately focus on a few selected subjects for our training and consulting. Currently, our focus is on Docker and Kubernetes - powerful, extensible open source technologies adopted by major cloud partners.
+We specialise in a few select subjects for our training and consulting. Currently, our focus is on open source container and orchestration technologies, such as Docker, Podman, Kubernetes, OpenShift and Helm.

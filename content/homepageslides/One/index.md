@@ -9,6 +9,5 @@ imageUrl: /images/welcome-rajware-2.png
 #     url: /about
 #     first: true
 ---
-Rajware Service Private Limited (RSPL) is a new venture to provide
-training and consulting services on selected technical topics. 
-We guarantee both depth and breadth.
+Rajware Services Private Limited (RSPL) offers 
+training and consulting services on selected IT topics, for organizations and individuals. We guarantee both depth and breadth.
