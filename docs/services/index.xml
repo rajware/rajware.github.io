@@ -4,39 +4,30 @@
     <title>Services on Rajware Services Pvt. Ltd.</title>
     <link>https://www.rajware.net/services/</link>
     <description>Recent content in Services on Rajware Services Pvt. Ltd.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Sep 2022 16:46:52 +0530</lastBuildDate><atom:link href="https://www.rajware.net/services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 21:01:29 +0530</lastBuildDate>
+    <atom:link href="https://www.rajware.net/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Training</title>
       <link>https://www.rajware.net/services/training/</link>
       <pubDate>Fri, 30 Sep 2022 16:46:43 +0530</pubDate>
-      
       <guid>https://www.rajware.net/services/training/</guid>
       <description>We believe that to use any technology effectively, you have to first understand the motivation (why) behind its creation, and then its basic design (what). This makes understanding the utilisation (how) easy and intuitive. We also believe that the best way to learn a technology is to try it as you learn it. Therefore, all our trainings are deliberately hands-on. All our training programs are built around these ideas. After an initial section where we discuss the motivation and design of any technology, the rest of the training is completely practical - to better understand the utilisation.</description>
     </item>
-    
     <item>
       <title>Consulting</title>
       <link>https://www.rajware.net/services/consulting/</link>
       <pubDate>Fri, 30 Sep 2022 16:46:47 +0530</pubDate>
-      
       <guid>https://www.rajware.net/services/consulting/</guid>
-      <description>We provide IT consulting services to product and service-oriented organizations, in the specific areas of:
-project scoping, design and architecture review application performance and scaling team capability building. We can engage tactically or strategically, as per need.
-Strategic Engagement We work with clients to identify, assess and build approaches as per specific business needs. To this end, we:
-conduct workshops to identify problems, desired outcomes, and technology fits identify and evaluate champions or teams build team capabilities and standard operating procedures manage development of proof-of-concept projects provide ongoing support as required Tactical Engagement We can also engage directly with delivery teams for specific, short-term deliverables.</description>
+      <description>We provide IT consulting services to product and service-oriented organizations, in the specific areas of:&#xA;project scoping, design and architecture review application performance and scaling team capability building. We can engage tactically or strategically, as per need.&#xA;Strategic Engagement We work with clients to identify, assess and build approaches as per specific business needs. To this end, we:&#xA;conduct workshops to identify problems, desired outcomes, and technology fits identify and evaluate champions or teams build team capabilities and standard operating procedures manage development of proof-of-concept projects provide ongoing support as required Tactical Engagement We can also engage directly with delivery teams for specific, short-term deliverables.</description>
     </item>
-    
     <item>
       <title>Open Source</title>
       <link>https://www.rajware.net/services/open-source/</link>
       <pubDate>Fri, 30 Sep 2022 16:46:52 +0530</pubDate>
-      
       <guid>https://www.rajware.net/services/open-source/</guid>
-      <description>We strongly believe in Open Source. Most of our training courses are built on open-source technologies such as Docker, Kubernetes, Helm, Go, and so on. Our standard course content, samples, and tools that we have built to deliver these courses, are all open source. They are available under the MIT License on Github.
-We created a cross-platform tool for setting up Kubernetes clusters, and also created some Kubernetes add-ons to complement it.</description>
+      <description>We strongly believe in Open Source. Most of our training courses are built on open-source technologies such as Docker, Kubernetes, Helm, Go, and so on. Our standard course content, samples, and tools that we have built to deliver these courses, are all open source. They are available under the MIT License on Github.&#xA;We created a cross-platform tool for setting up Kubernetes clusters, and also created some Kubernetes add-ons to complement it.</description>
     </item>
-    
   </channel>
 </rss>
