@@ -326,6 +326,33 @@ a.cardlink
   background-color: var(--accent-color);
 }
 
+.service_section .card.new {
+  overflow: hidden;
+}
+
+.ribbon {
+  position: absolute;
+  top: 10px; 
+  left: -30px;
+  width: 100px; 
+  height: initial;
+  padding: 2px 0px;
+  background-color: blue;
+  transform: rotate(-45deg);
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  opacity: 0.75;
+}
+
+.ribbon span {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  /*transform: rotate(45deg); */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
 /* end service section */
 
 

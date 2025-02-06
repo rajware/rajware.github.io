@@ -6,6 +6,8 @@ type: service
 onelinesummary: "Deep understanding, practical impact"
 weight: 40
 topsectionclass: training_section
+hasRibbon: true
+ribbonTitle: Wah
 ---
 Every day, IT professionals face a familiar scenario: a tool that worked perfectly yesterday suddenly fails, and the readily available solutions don't help. In these moments, the difference between knowing how to use a tool and understanding how it works becomes critical.
 
@@ -24,7 +26,7 @@ With fundamental knowledge, you can:
 - Create robust deployment templates that work reliably across different Kubernetes distributions
 
 ## Our Approach
-We've created focused courses that go beyond surface-level knowledge, teaching the core principles that power modern technologies:
+We've created _focused_ courses that go beyond surface-level knowledge, teaching the core principles that power modern technologies:
 - Container platforms (Docker, Kubernetes, Helm)
 - Automation tools (Ansible, Terraform)
 - Monitoring tools (Prometheus, Grafana)
@@ -39,12 +41,12 @@ We've created focused courses that go beyond surface-level knowledge, teaching t
 ## Interconnected Learning
 Each course fits into a larger learning path, allowing you to:
 - Build comprehensive technical understanding
-- Learn how technologies connect and interact
+- Learn how technologies and tools connect and interact
 - Choose your own path to expertise
 - Apply concepts across different tools and platforms
 
 ## Ready to Start?
-- Browse our course catalog (Coming soon)
+- Browse our [course catalog](course-catalog)
 - [Contact Us](/contact)
 
-Start building your technology foundation.
+Start building your technology foundation with us.
