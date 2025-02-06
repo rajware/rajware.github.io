@@ -1,9 +1,9 @@
 ---
-title: 'Training'
+title: 'Corporate Training'
 date: 2022-09-30T16:46:43+05:30
 draft: false
 type: service
-onelinesummary: "Customized, 100% hands-on trainings"
+onelinesummary: "Customized, 100% hands-on training"
 weight: 40
 topsectionclass: training_section
 ---

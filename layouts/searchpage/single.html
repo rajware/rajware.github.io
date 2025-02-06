@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class='layout_padding2 {{ default "" .Params.topsectionclass }}'>
+    <div class="container ">
+        <h1>{{ .Title }}</h1>
+        <input data-pitchfork-input type="text" placeholder="Search">
+        <div data-pitchfork-results 
+             data-pitchfork-index-url="/search-index.json"
+             style="display: none;">
+            <script type="x-tmpl-mustache">
+            {{ "{{#results}}" }}
+            {{ `<a href="{{url}}">` | safeHTML }}
+                {{ "<div>{{{highlights.title}}}</div>" | safeHTML }}
+                {{ "<div>{{{highlights.text}}}</div>" | safeHTML }}
+            {{ "</a>" | safeHTML }}
+            {{ "{{/results}}" }}
+
+            {{ "{{^results}}" }}
+            <div>No matches, keep typing...</div>
+            {{ "{{/results}}" }}
+            </script>
+        </div>
+
+        <script src="https://unpkg.com/@dropseed/pitchfork@<1.0.0/dist/search.js"></script>
+    </div>
+</section>
+{{ end }}
