@@ -2,44 +2,20 @@
 title: 'Course Catalog'
 date: 2025-02-06T13:17:00+05:30
 draft: false
+type: 
 onelinesummary: "Course catalog"
 weight: 40
 topsectionclass: 
 ---
-|Course||Duration|
-|---|:---:|---:|
-|Understanding Containers||4 hours|
-|Building Container Images||4 hours|
-|Building Container Images for .NET||2 hours|
-|Building Container Images for Node.js||2 hours|
-|Building Container Images for Go||2 hours|
-|Understanding Orchestration||8 hours|
-|Designing Orchestrable Applications||4 hours|
-|Designing Orchestrable Applications for .NET||2 hours|
-|Designing Orchestrable Applications for Node.js||2 hours|
-|Designing Orchestrable Applications for Go||2 hours|
-|Understanding Helm Charts||2 hours|
 
 ```mermaid
-flowchart LR
+flowchart TD
 C0[Understanding Containers]
 C1[Building Container Images]
-C1.1(Building Container Images for .NET)
-C1.2(Building Container Images for Node.js)
-C1.3(Building Container Images for Go)
 O0[Understanding Orchestration]
 O1[Designing Orchestrable Applications]
-O1.1[Designing Orchestrable Applications for .NET]
-O1.2[Designing Orchestrable Applications for Node.js]
-O1.3[Designing Orchestrable Applications for Go]
 C0 --> C1
-C1 --> C1.1
-C1 --> C1.2
-C1 --> C1.3
 O0 --> O1
-O1 --> O1.1
-O1 --> O1.2
-O1 --> O1.3
 H0[Understanding Helm Charts]
 C0 --> O0
 O0 --> H0
@@ -47,19 +23,29 @@ C1 --> O0
 O1 --> H0
 ```
 
-How to plan your technology foundation?
+__How to plan your technology foundation?__
+
+
 Quite simple, just follow the flowchart.
 The courses are designed to be building blocks in understanding the devops lifecycle.
 
-For example, if you are a Node.js developer and are looking at building and packaging applications, you would start with signing up for Understanding Containers <Insert code link here>, then learn Building Container Images for Node.js. To learn deploying, you are required to start with Understanding Orchestration and then move to Designing Orchestratble Applications for Node.js and finally learn Understanding Helm Charts.
+For example, if you are a Node.js developer and are looking at building and packaging applications, you would start with signing up for _Understanding Containers_ <Insert code link here>, then learn _Building Container Images_. To learn deploying, you are required to start with _Understanding Orchestration_ and then move to _Designing Orchestratble Applications_ and finally learn _Understanding Helm Charts_.
 
-If you are not a developer?
+__If you are not a developer?__
+
+
 Still, follow the flowchart.
 The course flow is planned to help non-developers such as architects, system administrators and anyone managing application deployments.
 
-For example, if you are a system administrator and are required to manage deployment of your in-house or client applications, you would start with Understanding Containers, then learn Understanding Orchestration and finally, Understanding Helm Charts.
+For example, if you are a system administrator and are required to manage deployment of your in-house or client applications, you would start with _Understanding Containers_, then learn _Understanding Orchestration_ and finally, _Understanding Helm Charts_.
 
-Why should you choose our trainings?
+__Why should you choose our trainings?__
+* Short, concept-level trainings that you can learn in one or two sittings.
+* Practical, industry-relevant examples and code, all open source that you can download and play with.
+* Courses carefully designed to help you apply concepts as you learn.
 
+__What sets this set of trainings apart from others?__
 
-What sets this set of trainings apart from others?
+* __Going beyond surface level knowledge__ - Our trainings are focused, comprehensive, drill-down at times that can help you avoid common mistakes while working with tools.
+* __Version updates and releases are accommodated__ - Our training content is based on official documentation, so we keep up with the version updates.
+* __Wider scope for learners to become experts__ - Learning path to specific area of interest is clearly given so that you can pick and choose the tools and technologies that fit your tech needs. 
