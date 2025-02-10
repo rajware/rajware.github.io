@@ -24,6 +24,19 @@ We currently offer the following courses:
 
 All our courses are designed to benefit developers as well as operations professionals.
 
+## Learning Path
+
+```mermaid
+flowchart LR
+C0(Containerization with Docker)
+K0(Orchestration with Kubernetes)
+O0(OpenShift Platform 4.0)
+H0(Deploying applications with Helm)
+C0 --> K0
+K0 --> O0
+K0 --> H0
+```
+
 ## Custom Training
 
 Our courses are designed to allow for customization, based on:

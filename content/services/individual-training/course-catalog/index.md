@@ -2,11 +2,15 @@
 title: 'Course Catalog'
 date: 2025-02-06T13:17:00+05:30
 draft: false
-type: 
 onelinesummary: "Course catalog"
 weight: 40
 topsectionclass: 
 ---
+## Courses
+
+{{< courseCardDeck >}}
+
+## Learning Path
 
 ```mermaid
 flowchart TD
@@ -29,7 +33,7 @@ __How to plan your technology foundation?__
 Quite simple, just follow the flowchart.
 The courses are designed to be building blocks in understanding the devops lifecycle.
 
-For example, if you are a Node.js developer and are looking at building and packaging applications, you would start with signing up for _Understanding Containers_ <Insert code link here>, then learn _Building Container Images_. To learn deploying, you are required to start with _Understanding Orchestration_ and then move to _Designing Orchestratble Applications_ and finally learn _Understanding Helm Charts_.
+For example, if you are a Node.js developer and are looking at building and packaging applications, you would start with signing up for _Understanding Containers_, then learn _Building Container Images_. To learn deploying, you are required to start with _Understanding Orchestration_ and then move to _Designing Orchestratble Applications_ and finally learn _Understanding Helm Charts_.
 
 __If you are not a developer?__
 
