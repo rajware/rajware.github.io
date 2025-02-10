@@ -1,0 +1,26 @@
+<div class="card-deck">
+    {{ $pages := (where .Site.Pages "Type" "course") }}
+    {{ range  (sort $pages ".Params.weight") }}
+    {{ $serviceName := .Title }}
+    {{ if .Params.hasRibbon -}}
+    <div class="card new">
+        <div class="ribbon">
+            <span>{{ default .Params.ribbonTitle "New" }}</span>
+        </div>
+    {{- else -}}
+    <div class="card">
+    {{- end -}}
+        <a class="cardlink" href="{{ .RelPermalink }}">
+            {{- with .Resources.GetMatch "images/icon.png" -}}
+            <img class="card-img-top" src='{{ .RelPermalink }}' alt="{{ $serviceName }}" />
+            {{ end }}
+            <div class="card-body">
+                <h5 class="card-title">{{ $serviceName }}</h5>
+                <p class="card-text">
+                    {{- .Params.onelinesummary -}}
+                </p>
+            </div>
+        </a>
+    </div>
+    {{ end }}
+</div>

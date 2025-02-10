@@ -1,7 +1,7 @@
 baseURL = 'https://www.rajware.net/'
 languageCode = 'en-us'
 title = 'Rajware Services Pvt. Ltd.'
-disableKinds = ['taxonomy', 'term', 'category']
+disableKinds = ['taxonomy', 'term']
 enableRobotsTXT = true
 publishDir = "docs"
 enableGitInfo = true
